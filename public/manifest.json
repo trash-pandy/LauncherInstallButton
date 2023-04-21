@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "name": "Modrinth - Install with Launcher",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Install anything from Modrinth with your launcher",
+  "action": {
+    "default_icon": {
+      "24": "icon/modrinth-launcher-24.png",
+      "48": "icon/modrinth-launcher-48.png",
+      "96": "icon/modrinth-launcher-96.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
